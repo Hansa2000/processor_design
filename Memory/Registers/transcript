@@ -1,0 +1,149 @@
+# Compile of datapath.sv was successful.
+# Compile of datapath_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.datapath_tb
+# vsim -gui work.datapath_tb 
+# Start time: 16:20:53 on Sep 15,2023
+# Loading sv_std.std
+# Loading work.datapath_tb
+# Loading work.datapath
+# Loading work.RegisterFile
+# Loading work.ImmGen
+# Loading work.mux32
+# Loading work.ALU
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'DataMemory'.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 73
+# Error loading design
+# End time: 16:20:54 on Sep 15,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim -gui work.datapath_tb
+# vsim -gui work.datapath_tb 
+# Start time: 16:21:08 on Sep 15,2023
+# Loading sv_std.std
+# Loading work.datapath_tb
+# Loading work.datapath
+# Loading work.RegisterFile
+# Loading work.ImmGen
+# Loading work.mux32
+# Loading work.ALU
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'DataMemory'.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 73
+# Error loading design
+# End time: 16:21:09 on Sep 15,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of datapath.sv was successful.
+# Compile of datapath_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.datapath_tb
+# vsim -gui work.datapath_tb 
+# Start time: 16:21:59 on Sep 15,2023
+# Loading sv_std.std
+# Loading work.datapath_tb
+# Loading work.datapath
+# ** Error: (vsim-3033) Instantiation of 'RegisterFile' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 26
+#         Searched libraries:
+#             C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/work
+# ** Error: (vsim-3033) Instantiation of 'ImmGen' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 38
+#         Searched libraries:
+#             C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/work
+# ** Error: (vsim-3033) Instantiation of 'mux32' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 44
+#         Searched libraries:
+#             C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/work
+# ** Error: (vsim-3033) Instantiation of 'mux32' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 51
+#         Searched libraries:
+#             C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/work
+# ** Error: (vsim-3033) Instantiation of 'ALU' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 58
+#         Searched libraries:
+#             C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/work
+# ** Error: (vsim-3033) Instantiation of 'DataMemory' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 73
+#         Searched libraries:
+#             C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/work
+# Error loading design
+# End time: 16:21:59 on Sep 15,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 2
+# Compile of datapath_tb.sv was successful.
+vsim -gui work.datapath_tb
+# vsim -gui work.datapath_tb 
+# Start time: 16:22:33 on Sep 15,2023
+# Loading sv_std.std
+# Loading work.datapath_tb
+# Loading work.datapath
+# ** Error: (vsim-3033) Instantiation of 'RegisterFile' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 26
+#         Searched libraries:
+#             C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/work
+# ** Error: (vsim-3033) Instantiation of 'ImmGen' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 38
+#         Searched libraries:
+#             C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/work
+# ** Error: (vsim-3033) Instantiation of 'mux32' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 44
+#         Searched libraries:
+#             C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/work
+# ** Error: (vsim-3033) Instantiation of 'mux32' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 51
+#         Searched libraries:
+#             C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/work
+# ** Error: (vsim-3033) Instantiation of 'ALU' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 58
+#         Searched libraries:
+#             C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/work
+# ** Error: (vsim-3033) Instantiation of 'DataMemory' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 73
+#         Searched libraries:
+#             C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/work
+# Error loading design
+# End time: 16:22:33 on Sep 15,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 2
+# Compile of datapath.sv was successful.
+# Compile of datapath_tb.sv was successful.
+vsim -gui work.datapath_tb
+# vsim -gui work.datapath_tb 
+# Start time: 16:24:30 on Sep 15,2023
+# Loading sv_std.std
+# Loading work.datapath_tb
+# Loading work.datapath
+# Loading work.RegisterFile
+# Loading work.ImmGen
+# Loading work.mux32
+# Loading work.ALU
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'DataMemory'.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 73
+# Error loading design
+# End time: 16:24:30 on Sep 15,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+vsim work.datapath
+# vsim work.datapath 
+# Start time: 16:24:57 on Sep 15,2023
+# Loading sv_std.std
+# Loading work.datapath
+# Loading work.RegisterFile
+# Loading work.ImmGen
+# Loading work.mux32
+# Loading work.ALU
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'DataMemory'.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 73
+# Error loading design
+# End time: 16:24:58 on Sep 15,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.datapath
+# vsim work.datapath 
+# Start time: 16:24:59 on Sep 15,2023
+# Loading sv_std.std
+# Loading work.datapath
+# Loading work.RegisterFile
+# Loading work.ImmGen
+# Loading work.mux32
+# Loading work.ALU
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'DataMemory'.
+#    Time: 0 ps  Iteration: 0  Instance: /datapath File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv Line: 73
+# Error loading design
+# End time: 16:25:00 on Sep 15,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1

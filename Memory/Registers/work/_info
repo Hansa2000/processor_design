@@ -1,0 +1,190 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/ALU/ALU_v2
+vALU
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1694775237
+!i10b 1
+!s100 CkW10`>>SU[SZJI2WbJ3?0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[HSSb:[5Ih1k6DAMnMcMj0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers
+Z5 w1694775228
+Z6 8C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv
+Z7 FC:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv
+!i122 56
+L0 124 22
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1694775236.000000
+Z10 !s107 C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@a@l@u
+vDataMemory
+R0
+R1
+!i10b 1
+!s100 4o[NXAj050USYNb88UeJn0
+R2
+IX^e>N1GDQ6Hj1[3]g]8=?2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 56
+L0 210 22
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@data@memory
+vdatapath
+R0
+Z14 !s110 1694775236
+!i10b 1
+!s100 @cl?=e`8;O3^Hh;oBi4jW0
+R2
+IQ7zAkzY:OQeCD7M=hCT^43
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 56
+L0 1 77
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vdatapath_tb
+R0
+!s110 1694775244
+!i10b 1
+!s100 KdmQKj7DoAZQN6<7Mkc^?1
+R2
+ID;b5z34>ljID0bE7XHFGk1
+R3
+S1
+R4
+w1694774978
+8C:\Users\Hansa Niluka\Desktop\ACA-sem 5-personal\DSD\processor_design\Datapath\datapath_tb.sv
+FC:\Users\Hansa Niluka\Desktop\ACA-sem 5-personal\DSD\processor_design\Datapath\datapath_tb.sv
+!i122 57
+L0 1 75
+R8
+r1
+!s85 0
+31
+!s108 1694775244.000000
+!s107 C:\Users\Hansa Niluka\Desktop\ACA-sem 5-personal\DSD\processor_design\Datapath\datapath_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Hansa Niluka\Desktop\ACA-sem 5-personal\DSD\processor_design\Datapath\datapath_tb.sv|
+!i113 1
+R12
+R13
+vImmGen
+R0
+R1
+!i10b 1
+!s100 9SQ2ETE]K2c]_IWX>mX5N0
+R2
+IDMTlZ]ZVl=a33li>^<KhY1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 56
+L0 161 47
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@imm@gen
+vmux32
+R0
+R1
+!i10b 1
+!s100 UV0A_cCbm?JoFM[Q0SMGi2
+R2
+IlOO?c@e[m2J;5>nn5hX__1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 56
+L0 147 10
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vRegisterFile
+R0
+R14
+!i10b 1
+!s100 Uf[E`E3R2<;lej16c_e;z3
+R2
+I=bhoblUMzl^O]Hm<ABJaK0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 56
+L0 87 35
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@register@file

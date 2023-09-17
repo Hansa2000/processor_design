@@ -1,0 +1,48 @@
+module ImmediateExtractor(
+    input wire [31:0] instruction,  // 32-bit instruction input
+    output logic [31:0] imm           // Immediate output
+);
+    reg [6:0] opcode; 
+    assign opcode = instruction[6:0];  // Extract the least significant 7 bits as opcode
+
+    always_comb begin
+        
+
+        case (opcode)
+            // LUI instruction
+            7'b0110111: imm = {instruction[31:12],12'b0};
+
+            // AUIPC instruction
+            7'b0010111: imm = {instruction[31:12],12'b0};
+
+            // JAL instruction
+            7'b1101111: imm = {{12{instruction[31]}}, instruction[19:12], instruction[20], instruction[30:21], 1'b0};
+ 
+            // JALR instruction
+            7'b1100111: imm = {{20{instruction[31]}}, instruction[31:20]};
+
+            // Branch instructions
+            7'b1100011: imm = {{20{instruction[31]}}, instruction[7], instruction[30:25], instruction[11:8], 1'b0};
+
+	    // L instructions
+            7'b0000011: imm = {{20{instruction[31]}}, instruction[31:20]};
+
+	    // S instructions
+            7'b0100011: imm = {{20{instruction[31]}},instruction[31:25], instruction[11:7]};
+	  
+ 	    // Arithematic I instructions
+            7'b0010011: imm = {{20{instruction[31]}}, instruction[31:20]};
+
+	    // Shift I instructions
+	    7'b0010011: imm = {27'b0, instruction[24:20]};
+
+
+
+            // Add more cases for other instructions as needed
+
+            default: imm = 32'b0; // Default immediate value
+        endcase
+    end
+
+endmodule
+

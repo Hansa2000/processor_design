@@ -1,0 +1,190 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vALU
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1694779626
+!i10b 1
+!s100 CkW10`>>SU[SZJI2WbJ3?0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[HSSb:[5Ih1k6DAMnMcMj0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath
+Z5 w1694778663
+Z6 8C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv
+Z7 FC:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv
+!i122 36
+L0 124 22
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1694779626.000000
+Z10 !s107 C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@a@l@u
+vDataMemory
+R0
+R1
+!i10b 1
+!s100 <7;KO@zf4OdKmb<EhV^lX0
+R2
+IIG4>DRIklC1nM781m]gEj3
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 36
+L0 210 22
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@data@memory
+vdatapath
+R0
+R1
+!i10b 1
+!s100 Yi`:NDf=6^PI0Qkf:W;O73
+R2
+IFnd<oK7bC4J:fmVzQOVRn1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 36
+L0 1 77
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vdatapath_tb
+R0
+R1
+!i10b 1
+!s100 Ij[YRlL5^RZ8=j:bmezYj1
+R2
+I]D<NaPTfbC?197E@hOR300
+R3
+S1
+R4
+w1694779565
+8C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath_tb.sv
+FC:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath_tb.sv
+!i122 37
+L0 1 110
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath_tb.sv|
+!i113 1
+R12
+R13
+vImmGen
+R0
+R1
+!i10b 1
+!s100 9SQ2ETE]K2c]_IWX>mX5N0
+R2
+IDMTlZ]ZVl=a33li>^<KhY1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 36
+L0 161 47
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@imm@gen
+vmux32
+R0
+R1
+!i10b 1
+!s100 UV0A_cCbm?JoFM[Q0SMGi2
+R2
+IlOO?c@e[m2J;5>nn5hX__1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 36
+L0 147 10
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vRegisterFile
+R0
+R1
+!i10b 1
+!s100 Uf[E`E3R2<;lej16c_e;z3
+R2
+I=bhoblUMzl^O]Hm<ABJaK0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 36
+L0 87 35
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@register@file

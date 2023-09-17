@@ -1,0 +1,143 @@
+# Compile of register.sv was successful.
+# Compile of register_tb.sv was successful.
+vsim -gui work.Register_tb
+# vsim -gui work.Register_tb 
+# Start time: 09:26:41 on Sep 12,2023
+# Loading sv_std.std
+# Loading work.Register_tb
+# Loading work.Register
+add wave -position end  sim:/Register_tb/write_data
+add wave -position end  sim:/Register_tb/reset
+add wave -position end  sim:/Register_tb/reg_write
+add wave -position end  sim:/Register_tb/data
+add wave -position end  sim:/Register_tb/clk
+run
+# Initial Register Data: 12345678
+# Reset Register Data: 00000000
+# ** Note: $finish    : C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register_tb.sv(64)
+#    Time: 80 ps  Iteration: 0  Instance: /Register_tb
+# 1
+# Break in Module Register_tb at C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register_tb.sv line 64
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of register.sv was successful.
+# Compile of register_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Initial Register Data: 12345678
+# Reset Register Data: 00000000
+# ** Note: $finish    : C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register_tb.sv(64)
+#    Time: 80 ps  Iteration: 0  Instance: /Register_tb
+# 1
+# Break in Module Register_tb at C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register_tb.sv line 64
+# Compile of register.sv was successful.
+# Compile of register_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Register_tb
+# Loading work.Register
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Data (Read Disabled): 00000000, Z (High-Impedance): 00000000
+# Data (Read Enabled): 00000000, Z (High-Impedance): zzzzzzzz
+# ** Note: $finish    : C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register_tb.sv(59)
+#    Time: 40 ps  Iteration: 0  Instance: /Register_tb
+# 1
+# Break in Module Register_tb at C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register_tb.sv line 59
+quit -sim
+# End time: 09:43:04 on Sep 12,2023, Elapsed time: 0:16:23
+# Errors: 0, Warnings: 1
+vlog -work work -sv {C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:43:26 on Sep 12,2023
+# vlog -reportprogress 300 -work work -sv C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register.sv 
+# -- Compiling module Register
+# 
+# Top level modules:
+# 	Register
+# End time: 09:43:26 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -sv {C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:43:30 on Sep 12,2023
+# vlog -reportprogress 300 -work work -sv C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register_tb.sv 
+# -- Compiling module Register_tb
+# 
+# Top level modules:
+# 	Register_tb
+# End time: 09:43:30 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.Register
+# vsim work.Register 
+# Start time: 09:43:33 on Sep 12,2023
+# Loading sv_std.std
+# Loading work.Register
+add wave -position end  sim:/Register/z
+add wave -position end  sim:/Register/write_data
+add wave -position end  sim:/Register/reset
+add wave -position end  sim:/Register/reg_write
+add wave -position end  sim:/Register/read_enable
+add wave -position end  sim:/Register/data
+add wave -position end  sim:/Register/clk
+run
+quit -sim
+# End time: 09:44:08 on Sep 12,2023, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 1
+vsim work.Register_tb
+# vsim work.Register_tb 
+# Start time: 09:44:10 on Sep 12,2023
+# Loading sv_std.std
+# Loading work.Register_tb
+# Loading work.Register
+add wave -position end  sim:/Register_tb/z
+add wave -position end  sim:/Register_tb/write_data
+add wave -position end  sim:/Register_tb/reset
+add wave -position end  sim:/Register_tb/reg_write
+add wave -position end  sim:/Register_tb/read_enable
+add wave -position end  sim:/Register_tb/data
+add wave -position end  sim:/Register_tb/clk
+run
+# Data (Read Disabled): 00000000, Z (High-Impedance): 00000000
+# Data (Read Enabled): 00000000, Z (High-Impedance): zzzzzzzz
+# ** Note: $finish    : C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register_tb.sv(59)
+#    Time: 40 ps  Iteration: 0  Instance: /Register_tb
+# 1
+# Break in Module Register_tb at C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register_tb.sv line 59
+# Compile of register.sv was successful.
+# Compile of register_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of register.sv failed with 1 errors.
+# Compile of register_tb.sv failed with 2 errors.
+# 2 compiles, 2 failed with 3 errors.
+# Compile of register.sv was successful.
+# Compile of register_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+step -out -current
+# ** UI-Msg: (vsim-12048) Current thread #INITIAL#27 is Done.
+# 
+step -out -current
+# Compile of register.sv was successful.
+# Compile of register_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of register.sv was successful.
+# Compile of register_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Register_tb
+# Loading work.Register
+# ** Error (suppressible): (vsim-3389) Port 'data' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Register_tb/uut File: C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Memory/Registers/register_tb.sv Line: 12
+# Break key hit
+restart -f
+# No Design Loaded!
+# Break key hit
+# Break key hit
+# End time: 21:07:03 on Sep 12,2023, Elapsed time: 11:22:53
+# Errors: 1, Warnings: 1

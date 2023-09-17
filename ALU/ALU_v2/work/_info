@@ -1,0 +1,63 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vALU
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1694490916
+!i10b 1
+!s100 IXHZAzdZf]Y5k@ZWnbFHd3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I0bU_`^W_4J95GjgDh7<cJ0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/ALU/ALU_v2
+w1694448526
+8C:\Users\Hansa Niluka\Desktop\ACA-sem 5-personal\DSD\processor_design\ALU\ALU_v2\ALU.sv
+FC:\Users\Hansa Niluka\Desktop\ACA-sem 5-personal\DSD\processor_design\ALU\ALU_v2\ALU.sv
+!i122 23
+L0 1 29
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1694490915.000000
+!s107 C:\Users\Hansa Niluka\Desktop\ACA-sem 5-personal\DSD\processor_design\ALU\ALU_v2\ALU.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Hansa Niluka\Desktop\ACA-sem 5-personal\DSD\processor_design\ALU\ALU_v2\ALU.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@a@l@u
+vALU_tb
+R0
+R1
+!i10b 1
+!s100 EG9A1Wa4;57>=P;XNdWM[0
+R2
+IXm^lRnkKoeUQ=06i78NJn0
+R3
+S1
+R4
+w1694434814
+8C:\Users\Hansa Niluka\Desktop\ACA-sem 5-personal\DSD\processor_design\ALU\ALU_v2\ALU_tb.sv
+FC:\Users\Hansa Niluka\Desktop\ACA-sem 5-personal\DSD\processor_design\ALU\ALU_v2\ALU_tb.sv
+!i122 24
+L0 1 103
+R5
+r1
+!s85 0
+31
+!s108 1694490916.000000
+!s107 C:\Users\Hansa Niluka\Desktop\ACA-sem 5-personal\DSD\processor_design\ALU\ALU_v2\ALU_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Hansa Niluka\Desktop\ACA-sem 5-personal\DSD\processor_design\ALU\ALU_v2\ALU_tb.sv|
+!i113 1
+R6
+R7
+n@a@l@u_tb
