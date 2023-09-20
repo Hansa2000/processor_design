@@ -1,9 +1,7 @@
-# Compile of datapath.sv was successful.
 # Compile of datapath_tb.sv was successful.
-# 2 compiles, 0 failed with no errors.
 vsim -gui work.datapath_tb
 # vsim -gui work.datapath_tb 
-# Start time: 17:23:33 on Sep 15,2023
+# Start time: 13:59:22 on Sep 20,2023
 # Loading sv_std.std
 # Loading work.datapath_tb
 # Loading work.datapath
@@ -25,24 +23,17 @@ add wave -position end  sim:/datapath_tb/ctrl1
 add wave -position end  sim:/datapath_tb/ctrl0
 add wave -position end  sim:/datapath_tb/clk
 add wave -position end  sim:/datapath_tb/ALUOp
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Hansa Niluka  Hostname: LAPTOP-P4L0CG7N  ProcessID: 24216
+#           Attempting to use alternate WLF file "./wlftg0tfk2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftg0tfk2
 add wave -position end  sim:/datapath_tb/uut/data_mem/memory
+run
+run
+run
+add wave -position 13 sim:/datapath_tb/uut/reg_file/*
 add wave -position 13  sim:/datapath_tb/uut/reg_file/registers
-add wave -position 13  sim:/datapath_tb/uut/reg_file/write_data
-add wave -position 13  sim:/datapath_tb/uut/reg_file/write_enable
-add wave -position 13  sim:/datapath_tb/uut/reg_file/write_reg_addr
-run -all
-# WARNING: No extended dataflow license exists
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-add wave -position 17  sim:/datapath_tb/uut/data_mem/mem_write
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 run
@@ -50,6 +41,22 @@ run
 # 
 # 
 run
+# Compile of datapath.sv was successful.
+# Compile of datapath_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.datapath_tb
+# Loading work.datapath
+# Loading work.RegisterFile
+# Loading work.ImmGen
+# Loading work.mux32
+# Loading work.ALU
+# Loading work.DataMemory
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
 run
 add wave -position 13  sim:/datapath_tb/uut/alu/Result
 restart -f
@@ -57,53 +64,75 @@ run -all
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
-# WARNING: No extended dataflow license exists
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Compile of datapath.sv was successful.
-# Compile of datapath_tb.sv was successful.
-# 2 compiles, 0 failed with no errors.
 restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.datapath_tb
-# Loading work.datapath
-# Loading work.RegisterFile
-# Loading work.ImmGen
-# Loading work.mux32
-# Loading work.ALU
-# Loading work.DataMemory
 run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
 run
-# Compile of datapath.sv was successful.
-# Compile of datapath_tb.sv was successful.
-# 2 compiles, 0 failed with no errors.
+add wave -position end  sim:/datapath_tb/uut/data_mem/write_data
+add wave -position end  sim:/datapath_tb/uut/data_mem/read_data
+add wave -position end  sim:/datapath_tb/uut/data_mem/mem_write
+add wave -position end  sim:/datapath_tb/uut/data_mem/mem_read
+add wave -position end  sim:/datapath_tb/uut/data_mem/address
 restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.datapath_tb
-# Loading work.datapath
-# Loading work.RegisterFile
-# Loading work.ImmGen
-# Loading work.mux32
-# Loading work.ALU
-# Loading work.DataMemory
 run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
 run
 # WARNING: No extended dataflow license exists
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+add wave -position 4  sim:/datapath_tb/uut/reg_file/write_reg_addr
+add wave -position 4  sim:/datapath_tb/uut/reg_file/write_data
+# Compile of datapath.sv was successful.
+# Compile of datapath_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of datapath.sv was successful.
+# Compile of datapath_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.datapath_tb
+# Loading work.datapath
+# Loading work.RegisterFile
+# Loading work.ImmGen
+# Loading work.mux32
+# Loading work.ALU
+# Loading work.DataMemory
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
 # Compile of datapath.sv was successful.
 # Compile of datapath_tb.sv was successful.
 # 2 compiles, 0 failed with no errors.
@@ -120,14 +149,7 @@ run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
-restart -f
-# Compile of datapath.sv was successful.
-# Compile of datapath_tb.sv was successful.
-# 2 compiles, 0 failed with no errors.
 run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
 # Compile of datapath.sv was successful.
 # Compile of datapath_tb.sv was successful.
 # 2 compiles, 0 failed with no errors.
@@ -144,3 +166,4 @@ run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
+run

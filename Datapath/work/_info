@@ -11,7 +11,7 @@ cModel Technology
 dC:/intelFPGA_lite/20.1
 vALU
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1694779626
+Z1 !s110 1695201332
 !i10b 1
 !s100 CkW10`>>SU[SZJI2WbJ3?0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,13 +22,13 @@ Z4 dC:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapa
 Z5 w1694778663
 Z6 8C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv
 Z7 FC:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv
-!i122 36
+!i122 47
 L0 124 22
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1694779626.000000
+Z9 !s108 1695201332.000000
 Z10 !s107 C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv|
 Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath.sv|
 !i113 1
@@ -48,7 +48,7 @@ R4
 R5
 R6
 R7
-!i122 36
+!i122 47
 L0 210 22
 R8
 r1
@@ -74,7 +74,7 @@ R4
 R5
 R6
 R7
-!i122 36
+!i122 47
 L0 1 77
 R8
 r1
@@ -90,17 +90,17 @@ vdatapath_tb
 R0
 R1
 !i10b 1
-!s100 Ij[YRlL5^RZ8=j:bmezYj1
+!s100 z8X<EB9=0Em:Vi32NkZ]L2
 R2
-I]D<NaPTfbC?197E@hOR300
+IJRdKkQ7QYiHWMm1ji=ecS3
 R3
 S1
 R4
-w1694779565
+w1695201309
 8C:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath_tb.sv
 FC:/Users/Hansa Niluka/Desktop/ACA-sem 5-personal/DSD/processor_design/Datapath/datapath_tb.sv
-!i122 37
-L0 1 110
+!i122 48
+L0 1 158
 R8
 r1
 !s85 0
@@ -124,7 +124,7 @@ R4
 R5
 R6
 R7
-!i122 36
+!i122 47
 L0 161 47
 R8
 r1
@@ -150,7 +150,7 @@ R4
 R5
 R6
 R7
-!i122 36
+!i122 47
 L0 147 10
 R8
 r1
@@ -175,7 +175,7 @@ R4
 R5
 R6
 R7
-!i122 36
+!i122 47
 L0 87 35
 R8
 r1
